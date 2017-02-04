@@ -2,7 +2,10 @@ package chapter8;
 
 public class SuperClassCar {
 //这是超类
-		public String color ="蓝色";
+		public SuperClassCar(String A){
+			this.color = A;	
+		}
+		public String color;
 		public int speed = 1;
 		public int level;
 	
